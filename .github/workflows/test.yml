@@ -3,10 +3,10 @@ name: Run Tests
 
 # Events or triggers that will activate this workflow
 on:
-	# Push to the main branch
+    # Push to the main branch
     push:
         branches: [main]
-	# Various pull request events that target the main branch
+    # Various pull request events that target the main branch
     pull_request:
         branches: [main]
 
